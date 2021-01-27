@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-26T03:06:55.111Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ke2UsnCUXlrYTsA4dn5U" version="14.2.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-01-27T09:39:11.525Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="vPvKJKCjXWtael7CoO4K" version="14.2.4" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -239,6 +239,35 @@
         </mxCell>
         <mxCell id="7vbrTkkXB95xe3yE8jen-23" value="非公平锁与公平锁的意思是指当非公平锁的线程&lt;br&gt;释放锁之后，等待获取锁的线程中，获取锁的几率是&lt;br&gt;相同的。而公平锁则是按照等待队列的顺序获取锁的。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;" vertex="1" parent="7xgE5kDoRnbJTqN6vRrQ-1">
           <mxGeometry x="260" y="200" width="300" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HWDEVs1R8hiSCRHKuRQ8" name="第 4 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="mlSmTyjwXThgYXzq1Clj-0" />
+        <mxCell id="mlSmTyjwXThgYXzq1Clj-1" parent="mlSmTyjwXThgYXzq1Clj-0" />
+        <mxCell id="mlSmTyjwXThgYXzq1Clj-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="mlSmTyjwXThgYXzq1Clj-1" source="mlSmTyjwXThgYXzq1Clj-2" target="mlSmTyjwXThgYXzq1Clj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mlSmTyjwXThgYXzq1Clj-2" value="Spring IOC" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=10;align=center;" vertex="1" parent="mlSmTyjwXThgYXzq1Clj-1">
+          <mxGeometry x="350" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mlSmTyjwXThgYXzq1Clj-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="mlSmTyjwXThgYXzq1Clj-1" source="mlSmTyjwXThgYXzq1Clj-3" target="mlSmTyjwXThgYXzq1Clj-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mlSmTyjwXThgYXzq1Clj-3" value="控制对象的生命周期" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="mlSmTyjwXThgYXzq1Clj-1">
+          <mxGeometry x="340" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mlSmTyjwXThgYXzq1Clj-5" value="控制什么" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;" vertex="1" parent="mlSmTyjwXThgYXzq1Clj-1">
+          <mxGeometry x="400" y="90" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mlSmTyjwXThgYXzq1Clj-6" value="即：将对象的控制权交给IOC容器" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="mlSmTyjwXThgYXzq1Clj-1">
+          <mxGeometry x="340" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mlSmTyjwXThgYXzq1Clj-8" value="反转什么" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;" vertex="1" parent="mlSmTyjwXThgYXzq1Clj-1">
+          <mxGeometry x="400" y="190" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
